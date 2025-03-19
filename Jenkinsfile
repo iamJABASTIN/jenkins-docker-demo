@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = "iamJABASTIN/docker-app:latest"  // Change this to your registry
+        DOCKER_IMAGE = "iamjabastin/docker-app:latest"  // Change this to your registry
         CONTAINER_NAME = "docker-running-app"
         REGISTRY_CREDENTIALS = "docker-hub-credentials"  // Jenkins credentials ID
     }
