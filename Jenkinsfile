@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "iamjabastin/docker-app:latest"  // Change this to your registry
         CONTAINER_NAME = "docker-running-app"
-        REGISTRY_CREDENTIALS = "docker-hub-credentials"  // Jenkins credentials ID
+        REGISTRY_CREDENTIALS = "docker-hub-jabastin"  // Jenkins credentials ID
     }
 
     stages {
